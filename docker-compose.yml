@@ -1,0 +1,12 @@
+version: '2'
+services:
+  db:
+    image: postgres
+  dev:
+    build: .
+    volumes:
+      - ./user:/home/user
+      - ./development:/home/development
+    depends_on:
+      - db
+

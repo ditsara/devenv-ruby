@@ -1,0 +1,7 @@
+# per-user directories
+user
+development
+
+# vim tempfiles
+*.swp
+*.swa
