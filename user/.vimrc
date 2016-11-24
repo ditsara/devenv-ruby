@@ -19,8 +19,8 @@ set foldlevel=1         "this is just what i use
 " colorscheme candypaper
 " colorscheme cobalt2
 " colorscheme gryffin
-colorscheme synic
-" colorscheme gotham256
+" colorscheme synic
+colorscheme gotham256
 " colorscheme termschool
 
 " These colorschemes might work with some adjustments to background
