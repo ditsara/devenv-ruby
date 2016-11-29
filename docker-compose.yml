@@ -3,6 +3,7 @@ services:
   db:
     image: postgres
   dev:
+    image: ditsara/devenv-ruby
     build: .
     volumes:
       - ./user:/home/user
